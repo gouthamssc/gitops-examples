@@ -3,16 +3,16 @@ kind: Route
 metadata:
   creationTimestamp: null
   labels:
-    app: bgd
-  name: bgd
-  namespace: bgd
+    app: goutham
+  name: goutham
+  namespace: goutham
 spec:
-  host: "bgd.apps.ocp4.chx.osecloud.com"
+  host: "goutham.sis-operations-sandbox-665928ed0d217537ce7ae6f03961fb79-0000.us-south.containers.appdomain.cloud"
   port:
     targetPort: 8080
   to:
     kind: Service
-    name: bgd
+    name: goutham
     weight: 100
 status:
   ingress:
